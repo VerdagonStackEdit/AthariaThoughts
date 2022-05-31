@@ -1,8 +1,22 @@
 
+In the beginning, there's no states, just regular. You cant do anything interesting with balance. If an enemy affects your balance, you're staggered and/or stunned.
+
+After that, we encounter humanoid enemies with four states:
+
+* Neutral - no benefits or costs.
+* 1 forward, a red dot.
+* 2 forward, two red dots.
+* 3 forward, three red dots.
+
+Most of the time they move or swipe, which don't affect balance. They also naturally gain 1 forward every turn, because of their disposition. When they get to 3, they can use a special attack, which then resets their balance.
+
+Around that time, you can learn how to parry or dodge, and maybe even counter in some way. These can only be done if theyre at 3 forward.
+
+
 
 beer style - turns off-balance-ness into a dodge around the enemy when attacked
 duelist style - can do faster and faster attacks if remaining at 0-1 imbalance
-acrobat style - can turn imbalance into movement that way
+acrobat style - can turn 2 or 3 imbalance into movement that way
 
 smash - if at 2 imbalance, can turn it into 2 the other way, and move the enemy a tile
 charge - imbalance towards the enemy can increase damage
